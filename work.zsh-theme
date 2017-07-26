@@ -1,4 +1,4 @@
-local ret_status="%(?:%{$fg_bold[green]%}➜ :%{$fg_bold[red]%}➜ )"
+local ret_status="%(?:%{$fg_bold[black]%}➜ :%{$fg_bold[red]%}➜ )"
 #PROMPT='${ret_status} %{$fg[cyan]%}%c%{$reset_color%} $(git_prompt_info)'
 PROMPT='${ret_status} %{$fg[black]%}$(pwd)%{$reset_color%}\$ $(git_prompt_info)'
 
